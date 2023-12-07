@@ -11,7 +11,6 @@ int main()
 
   int pilih, totalPesanan, jumlah, hasil = 0;
   char pilihanPesanan, yesNo;
-  int diskon = 10;
   int x = 0;
   int totalAkhirPesanan[x];
 
@@ -307,8 +306,7 @@ int main()
     hasil = hasil + totalAkhirPesanan[i];
   }
   cout << "Total Pesanan Buku :" << hasil << endl;
-  cout << "Diskon Toko 10%	  :" << hasil / diskon << endl;
-  cout << "Total Bayar		  :" << hasil - (hasil / diskon) << endl
+  cout << "Total Bayar		  :" << hasil << endl
        << endl;
   cout << "Terimakasih Atas Pembelian Anda" << endl;
 
