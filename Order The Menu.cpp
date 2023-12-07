@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  const string TOKO = "Waroeng Lima";
+  const string TOKO = "Waroeng Group Lima";
 
   cout << "Selamat Datang di " << TOKO;
   cout << "" << endl
@@ -41,7 +41,7 @@ int main()
       cout << "I. Souffle Pancake 		: Rp.17.000" << endl
            << endl;
 
-      cout << "Masukkan Pilihan Menu : ";
+      cout << "Masukkan Pilihan Best Seller : ";
       cin >> pilihanPesanan;
 
       if (pilihanPesanan == 'A' || pilihanPesanan == 'a')
@@ -108,7 +108,7 @@ int main()
       cout << "I. Grilled Ribs With Rice		: Rp.60.000" << endl
            << endl;
 
-      cout << "Masukkan Pilihan Menu : ";
+      cout << "Masukkan Pilihan Makanan : ";
       cin >> pilihanPesanan;
 
       if (pilihanPesanan == 'A' || pilihanPesanan == 'a')
@@ -175,7 +175,7 @@ int main()
       cout << "I. Mango Juice		   : Rp.8.000" << endl
            << endl;
 
-      cout << "Masukkan Pilihan Menu : ";
+      cout << "Masukkan Pilihan Minuman : ";
       cin >> pilihanPesanan;
 
       if (pilihanPesanan == 'A' || pilihanPesanan == 'a')
@@ -242,7 +242,7 @@ int main()
       cout << "I. Macaroon 		  : Rp.9.000" << endl
            << endl;
 
-      cout << "Masukkan Pilihan Menu : ";
+      cout << "Masukkan Pilihan Snack : ";
       cin >> pilihanPesanan;
 
       if (pilihanPesanan == 'A' || pilihanPesanan == 'a')
@@ -305,8 +305,7 @@ int main()
   {
     hasil = hasil + totalAkhirPesanan[i];
   }
-  cout << "Total Pesanan Buku :" << hasil << endl;
-  cout << "Total Bayar		  :" << hasil << endl
+  cout << "Total Pembayaran :" << hasil << endl
        << endl;
   cout << "Terimakasih Atas Pembelian Anda" << endl;
 
